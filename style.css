@@ -1,0 +1,31 @@
+div.inside_id0,
+div.inside_id1,
+div.inside_id2,
+div.inside_id3 {
+
+    border: 1px solid blue;
+    height: 16px;
+    width: 16px;
+    background: white;
+    gap: 1px;
+}
+
+div.class0,
+div.class1,
+div.class2,
+div.class3 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 16px;
+    width: 64px;
+    gap: 0;
+}
+
+div.inside_id0:hover, 
+div.inside_id1:hover, 
+div.inside_id2:hover,
+div.inside_id3:hover {
+    background: yellow;
+}
